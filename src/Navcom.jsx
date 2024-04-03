@@ -6,11 +6,11 @@ function Navcom() {
     <>
       <nav class="navbar navbar-expand-lg bg-dark fixed-top">
         <div className="container-fluid">
-          <Link className="navbar-brand text-white" to="#">
+          <Link className="navbar-brand text-white" to="/">
             mdShop
           </Link>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler text-white bg-white"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"

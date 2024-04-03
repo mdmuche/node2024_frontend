@@ -22,7 +22,7 @@ function Home() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:4000/home")
+      .get("http://localhost:4000")
       .then((res) => {
         // console.log(res.data);
         setDb(res.data);
